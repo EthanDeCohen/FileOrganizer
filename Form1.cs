@@ -14,9 +14,9 @@ namespace FileNameOrganizer
 {
     public partial class Form1 : Form
     {
-        System.String[] CurrentDir = null;
-        System.String previousDir = null;
-        System.String currentDirPath = null;
+        System.String[] CurrentDir = null;//CUrrent Directory
+        System.String previousDir = null;//Previous Directory
+        System.String currentDirPath = null;//Save the path
         List<string> listboxfiles = new List<string>();
         protected System.String[] TopDir = System.IO.Directory.GetLogicalDrives();
         public Form1()
